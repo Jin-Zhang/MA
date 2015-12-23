@@ -9,4 +9,6 @@ A-GPS (Assisted GPS) technology offers the possibility to solve this problem. A-
 The advantage of the GPS satellite positioning is the wide and effective coverage and the free of the positioning signal and navigation signal. The disadvantage of the GPS is the weak signal by the reaching the ground and the high cost of the terminal.  
 
 2. Infrared positioning technology  
+The principle of infrared positioning technology, the infrared of identification sends the infrared radiation, positioning depends on the optical sensor, which receives the infrared radiation. While infrared has a relatively high positioning accuracy, but the light can not pass through the obstacle, so that the infrared is only the sight propagation. The straight sight and the short transmission distance are the two major disadvantages of infrared positioning, it makes the poor effect of the positioning.  
 
+3.
