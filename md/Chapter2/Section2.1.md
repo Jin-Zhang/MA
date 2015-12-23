@@ -4,4 +4,6 @@ With the rapidly increasing in data services and multimedia services, the increa
 
 
 1. Indoor GPS technology
-GPS, Global Positioning System, currently it is the most widely used positioning technology. When the GPS receiver works in the room, due to the influence of the building, the signal is greatly attenuated, then the positioning accuracy is very low. It is impossible to achieve the same result as the outdoor, extracting the navigation data and time information from the satellite broadcasting directly. In order to obtain a higher signal sensitivity, the residence time of the delay on each code needs to be extended. A-GPS (Assisted GPS) technology offers the possibility to solve this problem.
+GPS, Global Positioning System, currently it is the most widely used positioning technology. When the GPS receiver works in the room, due to the influence of the building, the signal is greatly attenuated, then the positioning accuracy is very low. It is impossible to achieve the same result as the outdoor, extracting the navigation data and time information from the satellite broadcasting directly. In order to obtain a higher signal sensitivity, the residence time of the delay on each code needs to be extended. 
+
+A-GPS (Assisted GPS) technology offers the possibility to solve this problem.
