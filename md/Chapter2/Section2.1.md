@@ -4,3 +4,4 @@ With the rapidly increasing in data services and multimedia services, the increa
 
 
 1. Indoor GPS technology
+GPS, Global Positioning System, currently it is the most widely used positioning technology. 
