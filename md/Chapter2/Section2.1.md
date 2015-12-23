@@ -6,7 +6,7 @@ With the rapidly increasing in data services and multimedia services, the increa
 1. Indoor GPS technology
 GPS, Global Positioning System, currently it is the most widely used positioning technology. When the GPS receiver works in the room, due to the influence of the building, the signal is greatly attenuated, then the positioning accuracy is very low. It is impossible to achieve the same result as the outdoor, extracting the navigation data and time information from the satellite broadcasting directly. In order to obtain a higher signal sensitivity, the residence time of the delay on each code needs to be extended.  
 A-GPS (Assisted GPS) technology offers the possibility to solve this problem. A-GPS is the convergence technology between GPS technology and  the wireless cellular technology. The mobile terminal has not to download and decode the navigation data from the GPS satellites, receives directly the positioning information of the aid from the mobile network and has not to decode for the timing measurement.  
-The advantage of the GPS satellite positioning is the wide and effective coverage and the free of the positioning signal and navigation signal. The disadvantage of the GPS is the weak signal by the reaching the ground and the and high cost of the terminal.  
+The advantage of the GPS satellite positioning is the wide and effective coverage and the free of the positioning signal and navigation signal. The disadvantage of the GPS is the weak signal by the reaching the ground and the high cost of the terminal.  
 
 2. Infrared positioning technology  
 
