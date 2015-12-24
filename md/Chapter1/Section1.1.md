@@ -11,8 +11,8 @@ All SNMP messages is received via UDP port 161, only Trap information using UDP 
 SNMP network architecture consists of three parts: NMS, Agent and MIB.
 
 #####NMS
-NMS is the network manager, is a using SNMP for network device management and monitoring system. NMS refer to a dedicated server for network management, also refer to a device executed management functions of an application.  
-NMS can send a request to the Agent, select or modify one or more of the specific parameter values. At the same time, NMS can receive Trap information from Agent sends, in order to learn the current status of the managed devices.
+NMS is the network manager, takes usage of SNMP for network device management and monitoring system. NMS refers to a dedicated server for network management, it also refers to a device executed management functions of an application.  
+NMS can send a request to the Agent, select or modify one or more of the specific parameter values. At the same time, NMS can receive Trap information from Agent sends, in order to learn the current status of the managed devices.  
 
 #####Agent
 Agent is an application module on device in network, used to maintain the managed device information and to respond NMS's  request, to report management data to the NMS, which sends the request.  
