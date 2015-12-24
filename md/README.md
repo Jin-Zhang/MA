@@ -6,32 +6,35 @@
 ## [[Chapter1]] Introduction
 
 ## [[Chapter2]] Problem Statement
-### 目前遇到的是什么问题
-### 别人研究出来啥玩意
-### 本文研究的东西有没有前景
-前景大大的
+### Current problems(目前遇到的是什么问题)
+### Current research results（别人研究出来啥玩意）
+### Prospects of this study （本文研究的东西有没有前景）前景大大的
 
 ## [[Chapter3]] Methodology
 
-### 研究目标
+### Research purpose（研究目标）
+* find the network device (AP), which directly connects to a terminal
+* HTTP Redirect
+* dynamic
+
 在转发启动的时候，所有的HTTP 请求都会被重定向到一个指定的服务器的IP 地址。这个服务器会返回一个网页，带有逃生路径的指示。
 
 为了达到这个目标，需要找到任何一个终端所直连的网络设备。这不是一个特别精确的定位方式，但是比较快速。
 
-### 开启转发
+### start Redirect (开启转发)
 
 #### PF / PFCTL
 
 #### iptables
 
-#### DNS 级别的转发
+#### DNS Redirect                (DNS 级别的转发)
 
-### 命令行工具
+### Command-line tool            (命令行工具)
 
-#### SNMP 命令
+#### SNMP commands               (SNMP 命令)
 ##### snmptable / snmpwalk
 ##### ipNetToMedia
-##### 在交换机上使用的命令
+##### Command on the switch       (在交换机上使用的命令)
 
 #### ifconfig
 #### arp -a / arp
