@@ -66,3 +66,6 @@ Search the topology tree recursivly.
 4. pfctl 非常麻烦  
 5. switch 总是刷不到IP  
 6. 设备延迟严重，重复实验难以获得相同结果  
+7. 
+
+1. The performances of every device all different.
