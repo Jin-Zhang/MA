@@ -1,10 +1,11 @@
 #### 1.1 SNMP (Simple Network Management Protocol)
 #### 1.1.1 Overview
-The network scale increases, network administrators is difficult to monitor the status of all devices in a timely , to find and repair the fault.
+As the network scale increases, it becomes more difficult for network administrators to monitor the status of all devices in a short timeline, to discover and repair the fault.  
 
-SNMP is called Simple Network Management Protocol, SNMP is defined the application protocol for the management services on network. For the first time in August 1988 defined by the Internet Engineering Task Force (IETF) research team in order to solve the problem on the Internet router administration, and soon reached a formal standard in RFC1157. SNMP is composed of a series of protocols and specifications, which provide a method for collecting network management information from devices on the network. It collects data from managed devices in two ways: one is polling (polling-only) method, and the other is the interrupt based approach. These protocols are supported by many typical network devices such as routers, hubs, bridges, switches, servers, workstations, printers, modem racks and other network components and devices.
- 
-All SNMP messages received via UDP port 161, only Trap information using UDP port 162.
+SNMP is short term for Simple Network Management Protocol, SNMP is defined as the application protocol for the management services on network. For the first time in August 1988 defined by the Internet Engineering Task Force (IETF) research team in order to solve the problems with the Internet router administration. Soon it reached a formal standard in RFC1157. SNMP is composed of a series of protocols and specifications, which provide a method for collecting network management information from devices on the network. It collects data from managed devices in two ways: First is polling (polling-only) method, and the second is the interrupt-based approach. These protocols are supported by many typical network devices such as routers, hubs, bridges, switches, servers, workstations, printers, modem and other network components and devices.  
+
+All SNMP messages is received via UDP port 161, only Trap information using UDP port 162.
+
 
 #### 1.1.2 SNMP Network Architecture(可以加入图分析)
 SNMP network architecture consists of three parts: NMS, Agent and MIB.
