@@ -7,5 +7,5 @@ The main functions of ICMP are listed below:
 *	Establishment and maintenance of the routing information.  
 *	ICMP Redirect  
 *	Flow Control   
-*	
+
 _ping_ and _traceroute_ are the most common commands based on ICMP.  
