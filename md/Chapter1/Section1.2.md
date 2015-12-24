@@ -1,6 +1,6 @@
 #### MAC Address
 
-**MAC Address** means _Media Access Control_ or _Medium Access Control_. Or it called the physical address, hardware address, is used to define the location of network device. In the OSI model, the network layer (OSI Layer 3) is responsible for the IP address, the data link layer is responsible for the MAC address. Therefore, a media interface have a MAC address and an IP address in network. The _network interface controller_(NIC) determines the MAC address, and it is fixed.  
+**MAC Address** means _Media Access Control or Medium Access Control_. Or it is called the physical address, hardware address, is used to define the location of network device. In the OSI model, the network layer (OSI Layer 3) is responsible for the IP address; the data link layer is responsible for the MAC address. Therefore, a media interface has a MAC address and an IP address in network. The network interface controller (NIC) determines the MAC address, and it is fixed. (Belongs to the device)
 
 MAC address used hexadecimal digits separated by hyphens (-) or by colons (:) , a total of six bytes (48 bits). Actually MAC address is the adapter address or adapter identifier EUI-48. It is divided into the first three octets and the following three octets:  
 * The first three octets, is called Organizationally Unique Identifier, namely OUI. It is assigned to different manufacturers, Which have registered in IEEE, to distinguish the devices of the different manufacturers.  
