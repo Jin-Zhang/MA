@@ -4,11 +4,13 @@ This paragraph will try to implement an experiment. The target is locate a mobil
 
 #### (1) Experiment environment:
 ##### Devices:
-+ ProCurve Switch
-+ Mac Computer
-+ ASUS RT-N16
-+ D-Link
-##### Client: A normal mobile phone
++ ProCurve Switch x 1
++ Mac Computer x 1
++ ASUS RT-N16 x 1
++ D-Link x 1
++ Android mobile phone x 1
++ iPhone x 1
+
 ##### Devices Topology:
 最后画图
 
@@ -17,7 +19,10 @@ This paragraph will try to implement an experiment. The target is locate a mobil
 As explained before, the topology map of the network should be stored in the _devices.json_ configuration file. To configure the topology map, the device's name and all the MAC address are needed.
 
 The network devices could be Router, Switch or AP(access point). Their addresses must be stored in a „json“ file. A typical section listed below:
-1.2. JSON file sample:
+
+**JSON file sample**:
+
+```
 {
    "interfaces": [
       {
@@ -62,10 +67,24 @@ The network devices could be Router, Switch or AP(access point). Their addresses
    "status": true,
    "type": "switch"
 }
+```
+
 This json file contains for now three devices: „Jin-Mac“ as router and the root server, „ProCurve“ as a switch and „ASUS“ as an AP.
 
-2. The topology structure of the network devices are also have to be configured.
+The topology structure of the network devices are also have to be configured.
 In this experiment, „Jin-Mac“ connects to „ProCurve“, „ProCurve“ connects to „ASUS“.
+
+**config.json** sample:
+
+The _config.json_ file should also be configured, it contains two importand fields: first_hop_ip and host_name.
+
+```
+{
+    "Host IP": "127.0.0.1",
+    "Host name": "Jin-Mac"
+}
+```
+
 3. Query
 On the server web page, only the IP address of the client could be fetchted from the HTTP headers.
 	 		
@@ -73,8 +92,8 @@ Get the IP address
 		
 Run command:
 		
-snmptable -v 2c -c public <localhost 		or IP> ipNetToMedia
-		
+snmptable -v 2c -c public <Host IP> ipNetToMedia
+
 		
 A typical output listed below:
 		
@@ -125,9 +144,12 @@ This table has been deprecated, as a new IP version-neutral table has been added
 List media interfaces
 There are different ways to get the media interfaces of the devices.
 Using the ifTable command to list
-snmptable -v 2c -c public localhost ifTable
+
+_snmptable -v 2c -c public localhost ifTable_
+
 SNMP table: IF-MIB::ifTable
 
+```
  ifIndex   ifDescr           ifType ifMtu    ifSpeed          ifPhysAddress ifAdminStatus ifOperStatus  ifLastChange ifInOctets ifInUcastPkts ifInNUcastPkts ifInDiscards ifInErrors ifInUnknownProtos ifOutOctets ifOutUcastPkts ifOutNUcastPkts ifOutDiscards ifOutErrors ifOutQLen              ifSpecific
        1       lo0 softwareLoopback 16384          0                                   up           up  0:0:00:00.00   80614163        912661              0            0          0                 0    80614163         753271               0             0           0         0 SNMPv2-SMI::zeroDotZero
        2      gif0        ieee80212  1280          0                                 down         down  0:0:00:00.00          0             0              0            0          0                 0           0              0               0             0           0         0 SNMPv2-SMI::zeroDotZero
@@ -137,3 +159,6 @@ SNMP table: IF-MIB::ifTable
        6       fw0         ieee1394  4078   10000000 0:30:62:ff:fe:e9:fb:b8            up           up  0:0:00:00.00          0             0              0            0          0                 0         346              0               0             0           0         0 SNMPv2-SMI::zeroDotZero
        7      p2p0   ethernetCsmacd  2304   10000000       0:15:9e:97:55:81            up           up 5:20:11:09.27          0             0              0            0          0                 0           0              0               0             0           0         0 SNMPv2-SMI::zeroDotZero
        8 bridge100           bridge  1500          0       0:b0:35:3f:f4:64            up           up  7:3:24:05.69          0    4294967256              0            0          0                 0      224699           1412               0             0           0         0 SNMPv2-SMI::zeroDotZero
+````
+
+Access the iftable, could 
