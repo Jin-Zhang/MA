@@ -69,9 +69,10 @@ Recursive Query
 Install and start the SNMP service       (安装和启动SNMP 服务)
 开启和关闭网络共享（两个方向），内核转发
 
-#### Switch                (交换机)
-problem in implementation  (总是找不到它的IP)
-SNMP commands              (特殊的SNMP 命令)
+#### Switch                  (交换机)
+problem in implementation    (总是找不到它的IP)
+
+SNMP commands               (特殊的SNMP 命令)
 
 #### ASUS RT-N16
 problem in implementation   (所有的接口MAC 相同,可以充当Router、AP 和Repeater)
