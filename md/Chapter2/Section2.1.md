@@ -30,6 +30,7 @@ ZigBee is a new short-range and low-rate wireless network technology. It falls i
 8. Wi-Fi technology  
 Wi-Fi is wirelessly interconnection technology with PC, handheld devices and other mobile or non-mobile terminal, it is a trademark of  wireless network communication technology, belongs to the Wi-Fi Alliance. Hotspots are areas，where a wireless network (WLAN) is available，these access points to the Internet are installed mostly in bars, hotels, airports, train stations or even in public places. Anywhere people open the mobile terminal, can freely connect to the Internet via Wi-Fi. It is for these reasons，Wi-Fi technology is a new platform for information collection that can implement the complex positioning, monitoring and tracking tasks in a wide range. The positioning of the network node is the basis and premise for most applications, using wireless LAN standards IEEE802.11. It is easy to install, less base stations and using the same structure in underlying wireless network.  
 
-Except the above-mentioned positioning technology, as well as computer vision, optical tracking, based on image analysis, magnetic field and a beacon positioning. Many technologies are still in the experimental stage.
+Except the above-mentioned positioning technology, as well as computer vision, optical tracking, based on image analysis, magnetic field and a beacon positioning. Many technologies are still in the experimental stage.  
 
-This thesis
+
+Due to the popularity of WiFi，the application, which will be implemented in this thesis, is based on WiFi and hotspot technology, The following paragraphs focus on positioning in the WiFi environment.
