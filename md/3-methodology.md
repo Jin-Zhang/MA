@@ -13,13 +13,267 @@ This section will list the console commands that used in this articles.
 This 
 
 #### (1) snmpwalk
-The **snmpwalk** commnd describes the 
+The **snmpwalk** commnd will output all the tables of a SNMP server in key-value pair format. The usage is:
+
+> snampwalk -v 2c -c public <Host IP> [table name]
+
+If the _[table name]_ is specified, only the corresponding table will be outputted.
+
+Because that the _snmpwalk_ will output a lot of informations, and most of them are redudant, so a sample of _snmpwalk_ output is putted in the chapter **attachments**. A typical _snmpwalk_ output, which is useful in this master thsis, is listed below:
+
+```
+IF-MIB::ifNumber.0 = INTEGER: 10
+IF-MIB::ifIndex.1 = INTEGER: 1
+IF-MIB::ifIndex.2 = INTEGER: 2
+IF-MIB::ifIndex.3 = INTEGER: 3
+IF-MIB::ifIndex.4 = INTEGER: 4
+IF-MIB::ifIndex.5 = INTEGER: 5
+IF-MIB::ifIndex.6 = INTEGER: 6
+IF-MIB::ifIndex.7 = INTEGER: 7
+IF-MIB::ifIndex.8 = INTEGER: 8
+IF-MIB::ifIndex.9 = INTEGER: 9
+IF-MIB::ifIndex.10 = INTEGER: 10
+IF-MIB::ifDescr.1 = STRING: lo0
+IF-MIB::ifDescr.2 = STRING: gif0
+IF-MIB::ifDescr.3 = STRING: stf0
+IF-MIB::ifDescr.4 = STRING: en0
+IF-MIB::ifDescr.5 = STRING: en1
+IF-MIB::ifDescr.6 = STRING: en2
+IF-MIB::ifDescr.7 = STRING: fw0
+IF-MIB::ifDescr.8 = STRING: p2p0
+IF-MIB::ifDescr.9 = STRING: bridge0
+IF-MIB::ifDescr.10 = STRING: bridge100
+IF-MIB::ifType.1 = INTEGER: softwareLoopback(24)
+IF-MIB::ifType.2 = INTEGER: ieee80212(55)
+IF-MIB::ifType.3 = INTEGER: hippiInterface(57)
+IF-MIB::ifType.4 = INTEGER: ethernetCsmacd(6)
+IF-MIB::ifType.5 = INTEGER: ethernetCsmacd(6)
+IF-MIB::ifType.6 = INTEGER: ethernetCsmacd(6)
+IF-MIB::ifType.7 = INTEGER: ieee1394(144)
+IF-MIB::ifType.8 = INTEGER: ethernetCsmacd(6)
+IF-MIB::ifType.9 = INTEGER: bridge(209)
+IF-MIB::ifType.10 = INTEGER: bridge(209)
+IF-MIB::ifMtu.1 = INTEGER: 16384
+IF-MIB::ifMtu.2 = INTEGER: 1280
+IF-MIB::ifMtu.3 = INTEGER: 1280
+IF-MIB::ifMtu.4 = INTEGER: 1500
+IF-MIB::ifMtu.5 = INTEGER: 1500
+IF-MIB::ifMtu.6 = INTEGER: 1500
+IF-MIB::ifMtu.7 = INTEGER: 4078
+IF-MIB::ifMtu.8 = INTEGER: 2304
+IF-MIB::ifMtu.9 = INTEGER: 1500
+IF-MIB::ifMtu.10 = INTEGER: 1500
+IF-MIB::ifSpeed.1 = Gauge32: 0
+IF-MIB::ifSpeed.2 = Gauge32: 0
+IF-MIB::ifSpeed.3 = Gauge32: 0
+IF-MIB::ifSpeed.4 = Gauge32: 1000000000
+IF-MIB::ifSpeed.5 = Gauge32: 5250000
+IF-MIB::ifSpeed.6 = Gauge32: 0
+IF-MIB::ifSpeed.7 = Gauge32: 10000000
+IF-MIB::ifSpeed.8 = Gauge32: 10000000
+IF-MIB::ifSpeed.9 = Gauge32: 0
+IF-MIB::ifSpeed.10 = Gauge32: 0
+IF-MIB::ifPhysAddress.1 = STRING: 
+IF-MIB::ifPhysAddress.2 = STRING: 
+IF-MIB::ifPhysAddress.3 = STRING: 
+IF-MIB::ifPhysAddress.4 = STRING: 0:6c:8f:4:e6:69
+IF-MIB::ifPhysAddress.5 = STRING: 0:40:f3:9f:49:e2
+IF-MIB::ifPhysAddress.6 = STRING: 0:0:1d:59:c3:e0
+IF-MIB::ifPhysAddress.7 = STRING: 0:7:54:ff:fe:d5:9c:3e
+IF-MIB::ifPhysAddress.8 = STRING: 0:40:f3:9f:49:e2
+IF-MIB::ifPhysAddress.9 = STRING: 0:6c:8f:40:7:0
+IF-MIB::ifPhysAddress.10 = STRING: 0:6c:8f:40:7:64
+IF-MIB::ifAdminStatus.1 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.2 = INTEGER: down(2)
+IF-MIB::ifAdminStatus.3 = INTEGER: down(2)
+IF-MIB::ifAdminStatus.4 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.5 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.6 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.7 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.8 = INTEGER: down(2)
+IF-MIB::ifAdminStatus.9 = INTEGER: up(1)
+IF-MIB::ifAdminStatus.10 = INTEGER: up(1)
+IF-MIB::ifOperStatus.1 = INTEGER: up(1)
+IF-MIB::ifOperStatus.2 = INTEGER: down(2)
+IF-MIB::ifOperStatus.3 = INTEGER: down(2)
+IF-MIB::ifOperStatus.4 = INTEGER: up(1)
+IF-MIB::ifOperStatus.5 = INTEGER: up(1)
+IF-MIB::ifOperStatus.6 = INTEGER: up(1)
+IF-MIB::ifOperStatus.7 = INTEGER: up(1)
+IF-MIB::ifOperStatus.8 = INTEGER: down(2)
+IF-MIB::ifOperStatus.9 = INTEGER: up(1)
+IF-MIB::ifOperStatus.10 = INTEGER: up(1)
+IF-MIB::ifLastChange.1 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.2 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.3 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.4 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.5 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.6 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.7 = Timeticks: (0) 0:00:00.00
+IF-MIB::ifLastChange.8 = Timeticks: (309) 0:00:03.09
+IF-MIB::ifLastChange.9 = Timeticks: (309) 0:00:03.09
+IF-MIB::ifLastChange.10 = Timeticks: (5173577) 14:22:15.77
+IF-MIB::ifInOctets.1 = Counter32: 6863903
+IF-MIB::ifInOctets.2 = Counter32: 0
+IF-MIB::ifInOctets.3 = Counter32: 0
+IF-MIB::ifInOctets.4 = Counter32: 2623100
+IF-MIB::ifInOctets.5 = Counter32: 1380862186
+IF-MIB::ifInOctets.6 = Counter32: 0
+IF-MIB::ifInOctets.7 = Counter32: 0
+IF-MIB::ifInOctets.8 = Counter32: 0
+IF-MIB::ifInOctets.9 = Counter32: 0
+IF-MIB::ifInOctets.10 = Counter32: 0
+IF-MIB::ifInUcastPkts.1 = Counter32: 121096
+IF-MIB::ifInUcastPkts.2 = Counter32: 0
+IF-MIB::ifInUcastPkts.3 = Counter32: 0
+IF-MIB::ifInUcastPkts.4 = Counter32: 24554
+IF-MIB::ifInUcastPkts.5 = Counter32: 2682254
+IF-MIB::ifInUcastPkts.6 = Counter32: 0
+IF-MIB::ifInUcastPkts.7 = Counter32: 0
+IF-MIB::ifInUcastPkts.8 = Counter32: 0
+IF-MIB::ifInUcastPkts.9 = Counter32: 0
+IF-MIB::ifInUcastPkts.10 = Counter32: 0
+IF-MIB::ifInNUcastPkts.1 = Counter32: 0
+IF-MIB::ifInNUcastPkts.2 = Counter32: 0
+IF-MIB::ifInNUcastPkts.3 = Counter32: 0
+IF-MIB::ifInNUcastPkts.4 = Counter32: 0
+IF-MIB::ifInNUcastPkts.5 = Counter32: 0
+IF-MIB::ifInNUcastPkts.6 = Counter32: 0
+IF-MIB::ifInNUcastPkts.7 = Counter32: 0
+IF-MIB::ifInNUcastPkts.8 = Counter32: 0
+IF-MIB::ifInNUcastPkts.9 = Counter32: 0
+IF-MIB::ifInNUcastPkts.10 = Counter32: 0
+IF-MIB::ifInDiscards.1 = Counter32: 0
+IF-MIB::ifInDiscards.2 = Counter32: 0
+IF-MIB::ifInDiscards.3 = Counter32: 0
+IF-MIB::ifInDiscards.4 = Counter32: 0
+IF-MIB::ifInDiscards.5 = Counter32: 0
+IF-MIB::ifInDiscards.6 = Counter32: 0
+IF-MIB::ifInDiscards.7 = Counter32: 0
+IF-MIB::ifInDiscards.8 = Counter32: 0
+IF-MIB::ifInDiscards.9 = Counter32: 0
+IF-MIB::ifInDiscards.10 = Counter32: 0
+IF-MIB::ifInErrors.1 = Counter32: 0
+IF-MIB::ifInErrors.2 = Counter32: 0
+IF-MIB::ifInErrors.3 = Counter32: 0
+IF-MIB::ifInErrors.4 = Counter32: 0
+IF-MIB::ifInErrors.5 = Counter32: 0
+IF-MIB::ifInErrors.6 = Counter32: 0
+IF-MIB::ifInErrors.7 = Counter32: 0
+IF-MIB::ifInErrors.8 = Counter32: 0
+IF-MIB::ifInErrors.9 = Counter32: 0
+IF-MIB::ifInErrors.10 = Counter32: 0
+IF-MIB::ifInUnknownProtos.1 = Counter32: 0
+IF-MIB::ifInUnknownProtos.2 = Counter32: 0
+IF-MIB::ifInUnknownProtos.3 = Counter32: 0
+IF-MIB::ifInUnknownProtos.4 = Counter32: 0
+IF-MIB::ifInUnknownProtos.5 = Counter32: 0
+IF-MIB::ifInUnknownProtos.6 = Counter32: 0
+IF-MIB::ifInUnknownProtos.7 = Counter32: 0
+IF-MIB::ifInUnknownProtos.8 = Counter32: 0
+IF-MIB::ifInUnknownProtos.9 = Counter32: 0
+IF-MIB::ifInUnknownProtos.10 = Counter32: 0
+IF-MIB::ifOutOctets.1 = Counter32: 6863903
+IF-MIB::ifOutOctets.2 = Counter32: 0
+IF-MIB::ifOutOctets.3 = Counter32: 0
+IF-MIB::ifOutOctets.4 = Counter32: 1696984
+IF-MIB::ifOutOctets.5 = Counter32: 58219438
+IF-MIB::ifOutOctets.6 = Counter32: 0
+IF-MIB::ifOutOctets.7 = Counter32: 308865
+IF-MIB::ifOutOctets.8 = Counter32: 0
+IF-MIB::ifOutOctets.9 = Counter32: 303253
+IF-MIB::ifOutOctets.10 = Counter32: 20938
+IF-MIB::ifOutUcastPkts.1 = Counter32: 60553
+IF-MIB::ifOutUcastPkts.2 = Counter32: 0
+IF-MIB::ifOutUcastPkts.3 = Counter32: 0
+IF-MIB::ifOutUcastPkts.4 = Counter32: 13392
+IF-MIB::ifOutUcastPkts.5 = Counter32: 572421
+IF-MIB::ifOutUcastPkts.6 = Counter32: 0
+IF-MIB::ifOutUcastPkts.7 = Counter32: 0
+IF-MIB::ifOutUcastPkts.8 = Counter32: 0
+IF-MIB::ifOutUcastPkts.9 = Counter32: 1738
+IF-MIB::ifOutUcastPkts.10 = Counter32: 120
+IF-MIB::ifOutNUcastPkts.1 = Counter32: 0
+IF-MIB::ifOutNUcastPkts.2 = Counter32: 0
+IF-MIB::ifOutNUcastPkts.3 = Counter32: 0
+IF-MIB::ifOutNUcastPkts.4 = Counter32: 0
+IF-MIB::ifOutNUcastPkts.5 = Counter32: 0
+IF-MIB::ifOutNUcastPkts.6 = Counter32: 0
+IF-MIB::ifOutNUcastPkts.7 = Counter32: 0
+IF-MIB::ifOutNUcastPkts.8 = Counter32: 0
+IF-MIB::ifOutNUcastPkts.9 = Counter32: 0
+IF-MIB::ifOutNUcastPkts.10 = Counter32: 0
+IF-MIB::ifOutDiscards.1 = Counter32: 0
+IF-MIB::ifOutDiscards.2 = Counter32: 0
+IF-MIB::ifOutDiscards.3 = Counter32: 0
+IF-MIB::ifOutDiscards.4 = Counter32: 0
+IF-MIB::ifOutDiscards.5 = Counter32: 0
+IF-MIB::ifOutDiscards.6 = Counter32: 0
+IF-MIB::ifOutDiscards.7 = Counter32: 0
+IF-MIB::ifOutDiscards.8 = Counter32: 0
+IF-MIB::ifOutDiscards.9 = Counter32: 0
+IF-MIB::ifOutDiscards.10 = Counter32: 0
+IF-MIB::ifOutErrors.1 = Counter32: 0
+IF-MIB::ifOutErrors.2 = Counter32: 0
+IF-MIB::ifOutErrors.3 = Counter32: 0
+IF-MIB::ifOutErrors.4 = Counter32: 0
+IF-MIB::ifOutErrors.5 = Counter32: 0
+IF-MIB::ifOutErrors.6 = Counter32: 0
+IF-MIB::ifOutErrors.7 = Counter32: 0
+IF-MIB::ifOutErrors.8 = Counter32: 0
+IF-MIB::ifOutErrors.9 = Counter32: 0
+IF-MIB::ifOutErrors.10 = Counter32: 0
+IF-MIB::ifOutQLen.1 = Gauge32: 0
+IF-MIB::ifOutQLen.2 = Gauge32: 0
+IF-MIB::ifOutQLen.3 = Gauge32: 0
+IF-MIB::ifOutQLen.4 = Gauge32: 0
+IF-MIB::ifOutQLen.5 = Gauge32: 0
+IF-MIB::ifOutQLen.6 = Gauge32: 0
+IF-MIB::ifOutQLen.7 = Gauge32: 0
+IF-MIB::ifOutQLen.8 = Gauge32: 0
+IF-MIB::ifOutQLen.9 = Gauge32: 0
+IF-MIB::ifOutQLen.10 = Gauge32: 0
+IF-MIB::ifSpecific.1 = OID: SNMPv2-SMI::zeroDotZero
+IF-MIB::ifSpecific.2 = OID: SNMPv2-SMI::zeroDotZero
+IF-MIB::ifSpecific.3 = OID: SNMPv2-SMI::zeroDotZero
+IF-MIB::ifSpecific.4 = OID: SNMPv2-SMI::zeroDotZero
+IF-MIB::ifSpecific.5 = OID: SNMPv2-SMI::zeroDotZero
+IF-MIB::ifSpecific.6 = OID: SNMPv2-SMI::zeroDotZero
+IF-MIB::ifSpecific.7 = OID: SNMPv2-SMI::zeroDotZero
+IF-MIB::ifSpecific.8 = OID: SNMPv2-SMI::zeroDotZero
+IF-MIB::ifSpecific.9 = OID: SNMPv2-SMI::zeroDotZero
+IF-MIB::ifSpecific.10 = OID: SNMPv2-SMI::zeroDotZero
+```
+
+The left part is the _"key"_ part, the right part is the _"value"_ part, all the tables of SNMP could be converted in such format. Using
+
+> $ snmptable -v 2c -c public <Host IP> iftable
+
+will output the table content of _"iftable"_ in table format.
+
+
+Using _"snmptable...iftable"_ could fetch the media interfaces information of a remote computer.
+
+
+describes the 
 
 #### snmptable
 The 
 
 #### ping
 The **ping** command
+
+> $ ping 192.168.1.1
+
+```
+PING 192.168.1.1 (192.168.1.1): 56 data bytes
+64 bytes from 192.168.1.1: icmp_seq=0 ttl=64 time=3.337 ms
+64 bytes from 192.168.1.1: icmp_seq=1 ttl=64 time=3.163 ms
+```
+
+icmp_seq = ICMP Sequence
+ttl = Time to live
+ms = Millisecond
 
 #### ifconfig
 
@@ -98,9 +352,11 @@ bridge100: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 	status: inactive
 ```
 
-#### arp
+### arp
 
 arp -a
+
+The _arp_ command uses ICMP to scan the local network. 
 
 #### pfctl
 
