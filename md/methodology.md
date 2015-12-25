@@ -1,4 +1,4 @@
-## Chapter 3 Methodology
+# Chapter 3 Methodology
 
 This chapter will 
 
@@ -107,3 +107,54 @@ When the automatical locating service begin, a HTTP redirection will be activate
 ### Summary
 
 This chapter describes the technology basis to reach the destination.
+
+
+## [Section 3.1. Research ]
+## Research purpose          （研究目标）
+* find the network device (AP), which directly connects to a terminal
+* HTTP Redirect
+* dynamic
+
+在转发启动的时候，所有的HTTP 请求都会被重定向到一个指定的服务器的IP 地址。这个服务器会返回一个网页，带有逃生路径的指示。
+
+为了达到这个目标，需要找到任何一个终端所直连的网络设备。这不是一个特别精确的定位方式，但是比较快速。
+
+## [Section 3.2. Localization Process](localization.md)
+## [Section 3.3. Redirection](Chapter3/redirection.md)
+ start Redirect               (开启转发)
+### PF / PFCTL
+### iptables
+#### DNS Redirect                (DNS 级别的转发)
+
+### Command-line tool            (命令行工具)
+
+#### SNMP commands               (SNMP 命令)
+##### snmptable / snmpwalk
+##### ipNetToMedia
+##### Command on the switch       (在交换机上使用的命令)
+
+#### ifconfig
+#### arp -a / arp
+#### ping / traceroute
+
+### Construction of the network topology   (构建网络拓扑结构)
+####    为什么无法自动构建
+####    本文采用的构建方式
+
+### Web server                             (Web 服务器)
+#### Apache
+#### Python SimpleHTTPServer
+
+### Programming language                  (编程语言)
+#### Python
+#### Kivy
+##### KvLang
+#### Django
+#### json
+#### shell script
+
+### Flood Algorithm          (洪水算法)
+Recursive Query
+构建拓扑结构
+寻找第一跳
+递归查询
