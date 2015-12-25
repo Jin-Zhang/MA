@@ -85,7 +85,9 @@ The _config.json_ file should also be configured, it contains two importand fiel
 }
 ```
 
-3. Query
+#### 3. Query
+
+
 On the server web page, only the IP address of the client could be fetchted from the HTTP headers.
 	 		
 Get the IP address
@@ -96,9 +98,9 @@ Run command:
 
 		
 A typical output listed below:
-		
-> $ ipNetToMediaIfIndex 		ipNetToMediaPhysAddress ipNetToMediaNetAddress ipNetToMediaType
-```	
+
+```		
+ipNetToMediaIfIndex 		ipNetToMediaPhysAddress ipNetToMediaNetAddress ipNetToMediaType
 5 4c:9:d4:4d:d0:d6 192.168.1.1 other
 5 ff:ff:ff:ff:ff:ff 192.168.1.255 other
 **8 8c:bf:a6:a7:17:63 192.168.2.2 other**
