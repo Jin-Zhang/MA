@@ -92,22 +92,23 @@ Get the IP address
 		
 Run command:
 		
-snmptable -v 2c -c public <Host IP> ipNetToMedia
+> $ snmptable -v 2c -c public <Host IP> ipNetToMedia
 
 		
 A typical output listed below:
 		
-		ipNetToMediaIfIndex 		ipNetToMediaPhysAddress ipNetToMediaNetAddress ipNetToMediaType
-	
+> $ ipNetToMediaIfIndex 		ipNetToMediaPhysAddress ipNetToMediaNetAddress ipNetToMediaType
+```	
 5 4c:9:d4:4d:d0:d6 192.168.1.1 other
 5 ff:ff:ff:ff:ff:ff 192.168.1.255 other
-8 8c:bf:a6:a7:17:63 192.168.2.2 other
+**8 8c:bf:a6:a7:17:63 192.168.2.2 other**
 8 10:40:f3:9f:49:e2 192.168.2.5 other
 8 0:1c:2e:e:aa:0 192.168.2.7 other
 8 ff:ff:ff:ff:ff:ff 192.168.2.255 other
-The yellow marked row is the Handy that we want to find out. Important information is the MAC address and the media index.
-	
-		
+````
+
+The bold row is the mobile phone that we want to find out. In this row, number 8 indicate the media interface, _8c:bf:a6:a7:17:63_ and _192.168.2.2_ is the MAC address and IP address of the mobile phone.
+
 Search the devices.json file, 		media interface 8 connects to the ProCurve switch media interface 		1.
 		
 And the ProCurve switch media 		interface belongs to ProCurve switch. This device is defined as a 		switch, supports SNMP 1, and is active.
