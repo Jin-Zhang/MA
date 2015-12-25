@@ -33,6 +33,6 @@ Wi-Fi is wirelessly interconnection technology with PC, handheld devices and oth
 Except the above-mentioned positioning technology, as well as computer vision, optical tracking, based on image analysis, magnetic field and a beacon positioning. Many technologies are still in the experimental stage.  
 
 #### The purpose of the application in thesis
-Due to the popularity of WiFi，this application, which will be implemented in this thesis, is based on WiFi and hotspot technology, it is "Guidance system" for mobile devices in order to evacuate from the building for people. The application runs on mobile terminal without any additional software or APP, using only by Web browser. When an emergency occurs, the web page of user through HTTP Redirect technology to guide page. The following paragraphs focus on positioning in the WiFi environment.  
+Due to the popularity of WiFi，this application, which will be implemented in this thesis, is based on WiFi and hotspot technology, it is "Guidance system" for mobile devices in order to evacuate from the building for people. The application runs on mobile terminal without any additional software or APP, requires only the web browser. When an emergency occurs, the web page of user through HTTP Redirect technology to guide page. The following paragraphs focus on positioning in the WiFi environment.  
 
 
