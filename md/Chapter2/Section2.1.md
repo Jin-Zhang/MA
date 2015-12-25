@@ -22,4 +22,12 @@ RFID technology uses radio frequency mode for the data exchange by non-contact a
 
 6. Ultra-wideband technology  
 Ultra-wideband technology is a new communications technology, which has great differences with traditional communication technologies. 
+It needs not to use the Carrier in conventional communication system, using by the sending and receiving within nanosecond or less nanosecond of the ultra‐short	pulses to transmit data, so as to have the GHz bandwidth. UWB systems compares with conventional narrowband systems, having penetration, low power consumption, good resistance to multipath effects, safety, low system complexity and the precise positioning accuracyit. Therefore, Ultra-wideband technology can be used location tracking and navigation in indoor for stationary or moving objects and people.  
 
+7. ZigBee technology
+ZigBee is a new short-range and low-rate wireless network technology. It rangs between RFID and Bluetooth, and also be used for indoor positioning. It has its own radio standards, coordinating communication between the thousands of tiny sensors with each other in order to achieve positioning. The energy demand of these sensors is very low, using a relay way to transmit the data by radio waves from one sensor to another sensor, so their communication efficiency is very high. The most significant technical features of ZigBee are low power and low cost.  
+
+8. Wi-Fi technology  
+
+
+This thesis
