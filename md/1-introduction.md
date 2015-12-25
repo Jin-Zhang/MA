@@ -1,5 +1,6 @@
-## Chapter 1. Introduction
+# Chapter 1. Introduction
 This chapter will introduce the basic information of the master thesis.
+
 ### [[Section1.1]] SNMP(Simple Network Management Protocol)
 ### [[Section1.2]] 
 ### [[Section1.3]] 
