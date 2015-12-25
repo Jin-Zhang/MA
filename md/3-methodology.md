@@ -2,7 +2,15 @@
 
 This chapter will 
 
-### Console commands
+
+## Console commands
+
+To interactive with the network devices, console commands are used in different situations in this master thesis. It's used to activate /deactivate the server and redirection, get the list of media interfaces of the network devices, fetch the information of SNMP, and so on.
+
+This section will list the console commands that used in this articles.
+
+
+This 
 
 #### (1) snmpwalk
 The **snmpwalk** commnd describes the 
