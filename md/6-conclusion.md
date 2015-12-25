@@ -6,3 +6,15 @@
 2. 测试不同的设备，找到一个可用于实际定位的设备组合
 3. 解决加密问题
 4. 完善管理界面，增加远程管理功能
+
+### Test
+
+This system should be test on plenty equipments.
+
+### Traps
+
+### Delay
+
+When the connection state changed, the state of the devices should be updated.
+
+### 
