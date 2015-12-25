@@ -28,6 +28,6 @@ It needs not to use the Carrier in conventional communication system, using by t
 ZigBee is a new short-range and low-rate wireless network technology. It rangs between RFID and Bluetooth, and also be used for indoor positioning. It has its own radio standards, coordinating communication between the thousands of tiny sensors with each other in order to achieve positioning. The energy demand of these sensors is very low, using a relay way to transmit the data by radio waves from one sensor to another sensor, so their communication efficiency is very high. The most significant technical features of ZigBee are low power and low cost.  
 
 8. Wi-Fi technology  
-
+Wi-Fi technology is a new platform for information collection that can implement the complex positioning, monitoring and tracking tasks in a wide range. The positioning of the network node is the basis and premise for most applications, using wireless LAN standards IEEE802.11. It is easy to install, not a lot of  base stations and using the same structure in underlying wireless network.
 
 This thesis
