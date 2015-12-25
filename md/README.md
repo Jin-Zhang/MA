@@ -1,18 +1,19 @@
 # Intelligente Wegführung von Mobilen Endgeräten auf der Basis von Hotspot
 **Jin Zhang**
 
-## [[Abstract]]
-## [[Abstrakt]]
-## [[Chapter1]] Introduction
+# [Abstract](Abstract.md)
 
-## [[Chapter2]] Problem Statement
-### Current problems            (目前遇到的是什么问题)
-### Current research results   （别人研究出来啥玩意）
-### Prospects of this study    （本文研究的东西有没有前景）前景大大的
+# [Chapter 1. Introduction](Chapter1/README.md) 
 
-## [[Chapter3]] Methodology
+# [Chapter 2. Problem Statement](Chapter2/README.md)
+## [Section 2.1. Current Problems](Chapter2/current_problems.md)
+## Current problems            (目前遇到的是什么问题)
+## Current research results   （别人研究出来啥玩意）
+## Prospects of this study    （本文研究的东西有没有前景）前景大大的
 
-### Research purpose          （研究目标）
+# [Chapter 3. Methodology](Chapter3/README.md)
+## [Section 3.1. Research ]
+## Research purpose          （研究目标）
 * find the network device (AP), which directly connects to a terminal
 * HTTP Redirect
 * dynamic
@@ -21,12 +22,11 @@
 
 为了达到这个目标，需要找到任何一个终端所直连的网络设备。这不是一个特别精确的定位方式，但是比较快速。
 
-### start Redirect               (开启转发)
-
-#### PF / PFCTL
-
-#### iptables
-
+## [Section 3.2. Localization Process](localization.md)
+## [Section 3.3. Redirection](Chapter3/redirection.md)
+ start Redirect               (开启转发)
+### PF / PFCTL
+### iptables
 #### DNS Redirect                (DNS 级别的转发)
 
 ### Command-line tool            (命令行工具)
@@ -106,5 +106,11 @@ pictures                        (贴图)
 
 ### 未来的工作
 
-## [[Chapter6]] Conclusion
-Future work
+# [Chapter 5. Evaluation](evaluation.md)
+## [Section 5.1. Result Evaluation](result_evaluation.md)
+## [Section 5.2. Comparison with Other Works](comparison_with_others.md)
+## [Section 5.3. ]
+
+# [Chapter 6. Conclusion](conclusion.md)
+
+# [References](references.md)
