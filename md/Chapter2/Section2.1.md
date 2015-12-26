@@ -3,7 +3,7 @@
 With the rapidly increasing in data services and multimedia services, the increasing demand for positioning and navigation, especially in complex indoor environments, such as airport, exhibition halls, supermarkets, libraries, etc. The mobile terminal need to be identified with indoor location information. But because of the restriction of the positioning time, the positioning accuracy and complicated indoor environment, a relatively complete positioning technology is still unable to be good used. A number of solutions of the indoor positioning technology was proposed by Experts.
 
 
-1. Indoor GPS technology
+1. Indoor GPS technology  
 GPS, Global Positioning System, currently it is the most widely used positioning technology. When the GPS receiver works in the room, due to the influence of the building, the signal is greatly attenuated, then the positioning accuracy is very low. It is impossible to achieve the same result as the outdoor, extracting the navigation data and time information from the satellite broadcasting directly. In order to obtain a higher signal sensitivity, the residence time of the delay on each code needs to be extended.  
 A-GPS (Assisted GPS) technology offers the possibility to solve this problem. A-GPS is the convergence technology between GPS technology and  the wireless cellular technology. The mobile terminal has not to download and decode the navigation data from the GPS satellites, receives directly the positioning information of the aid from the mobile network and has not to decode for the timing measurement.  
 The advantage of the GPS satellite positioning is the wide and effective coverage and the free of the positioning signal and navigation signal. The disadvantage of the GPS is the weak signal by the reaching the ground and the high cost of the terminal.  
@@ -35,6 +35,6 @@ Except the above-mentioned positioning technology, as well as computer vision, o
 #### The purpose of the application in thesis
 Due to the popularity of WiFi，this application, which will be implemented in this thesis, is based on WiFi and hotspot technology, it is "Guidance system" for mobile devices in order to evacuate from the building for people. The application runs on mobile terminal without any additional software or APP, requires only the web browser. When an emergency occurs, the web page of user through HTTP Redirect technology to guide page. The following paragraphs focus on positioning in the WiFi environment.  
 
-In the indoor environment, a IEEE802.11 WLAN is mainly composed of one or more of AccessPoint (AP) to provide the Wireless Access Service
+In the indoor environment, a IEEE802.11 WLAN is mainly composed of one or more of AccessPoint (AP) to provide the wireless access service. Usually any mobile device connects to the AP by the strongest signal and the nearest AP, since the AP has been previously placed in a fixed location, so we can determine the location Information of the mobile device through location Information of the AP, which is connected to by the mobile device. And I found that most of the current network devices with SNMP service. 
 
 
