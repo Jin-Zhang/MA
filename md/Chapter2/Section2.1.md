@@ -33,10 +33,7 @@ Wi-Fi is wirelessly interconnection technology with PC, handheld devices and oth
 Except the above-mentioned positioning technology, as well as computer vision, optical tracking, based on image analysis, magnetic field and a beacon positioning. Many technologies are still in the experimental stage.  
 
 ### The purpose of the application in thesis
-Due to the popularity of WiFi，this application, which will be implemented in this thesis, is based on WiFi and hotspot technology, it is "Guidance system" for mobile devices in order to evacuate from the building for people. The application runs on mobile terminal without any additional software or APP, requires only the web browser. When an emergency occurs, the web page of user through HTTP Redirect technology to guide page. The following paragraphs focus on positioning in the WiFi environment.  
-
-In the indoor environment, a IEEE802.11 WLAN is mainly composed of one or more of AccessPoint (AP) to provide the wireless access service. Usually any mobile device connects to the AP of the strongest signal and the nearest AP, since the AP has been previously placed in a fixed location, so we can determine the location Information of the mobile device through location Information of the AP, which is connected to by the mobile device. And I found that most of the current network devices with SNMP service.  
-Therefore, this thesis presents the application based on web mode with combination of the WLAN technology and SNMP technology, using the location of AP to determine the positioning of the user's mobile device for getting the escape information. There are several methods as location information in Wi-Fi environment.
+Due to the popularity of WiFi，this application, which will be implemented in this thesis, is based on WiFi and hotspot technology, it is "Guidance system" for mobile devices in order to evacuate from the building for people. The application runs on mobile terminal without any additional software or APP, requires only the web browser. When an emergency occurs, the web page of user through HTTP Redirect technology to guide page. The following paragraphs focus on positioning in the WiFi environment. There are several methods as location information in Wi-Fi environment.
 
 #### IP address  
 The IP address of device is automatically distributed through DHCP to connect to AP. If the IP address is used in the different address segment by any APs, it can determine the IP address area of the AP for the terminal. According to the different ip address, the connected AP can be found. 
@@ -49,9 +46,12 @@ In fact, the installation process of the wireless network has a lot of possibili
 By principle of triangulation detects the position from three different points, and then uses the triangle geometric principles to determine the position and the distance. Wireless Triangulation is a method for determining the location of wireless nodes with IEEE 802.11 standards. It is normally implemented by measuring the received signal strengths(RSS). Because of the multipath effects of the signal can not determine the accurate position, and it needs to calculate three signal strengths of the different AP.   
 
 #### Authentication of the user
-In many public Wi-Fi zone requires users to authenticate before using the Internet, based on the acentralized RADIUS server or IEEE 802.1X and providing centralized authentication, authorization, and accounting for the network access. The mobile device sends an
-authentication request to an AP, then it forwards the request to the RADIUS server. Therefore, such as the time, the AP's ID and the MAC
-address of the mobile device are recorded in the RADIUS server in order to determine information, which AP a mobile device is currently associated with.
+In many public Wi-Fi zone requires users to authenticate before using the Internet, based on the a centralized RADIUS server or IEEE 802.1X and providing centralized authentication, authorization, and accounting for the network access. The mobile device sends an
+authentication request to an AP, then it forwards the request to the RADIUS server. Such as the time, the AP's ID and the MAC
+address of the mobile device are recorded in the RADIUS server in order to determine information, which AP a mobile device is currently associated with. Therefore, the method of the RADIUS depends on the RADIUS server and other protocols. It is only suitable for the use of authentication WLAN, and it is not good for web application because of using the MAC address of mobile device to record in RADIUS server. 
+In summary，in the indoor environment, a IEEE802.11 WLAN is mainly composed of one or more of AccessPoint (AP) to provide the wireless access service. Usually any mobile device connects to the AP of the strongest signal and the nearest AP, since the AP has been previously placed in a fixed location, so we can determine the location Information of the mobile device through location Information of the AP, which is connected to by the mobile device. And I found that most of the current network devices with SNMP service.  
+Therefore, this thesis presents the application based on web mode with combination of the WLAN technology and SNMP technology, using the location of AP to determine the positioning of the user's mobile device for getting the escape information. 
+
 
 
 
