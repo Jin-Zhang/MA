@@ -1,4 +1,4 @@
-#### The discussion for the indoor location technology based on wireless technology 
+### The discussion for the indoor location technology based on wireless technology 
 
 With the rapidly increasing in data services and multimedia services, the increasing demand for positioning and navigation, especially in complex indoor environments, such as airport, exhibition halls, supermarkets, libraries, etc. The mobile terminal need to be identified with indoor location information. But because of the restriction of the positioning time, the positioning accuracy and complicated indoor environment, a relatively complete positioning technology is still unable to be good used. A number of solutions of the indoor positioning technology was proposed by Experts.
 
@@ -32,20 +32,20 @@ Wi-Fi is wirelessly interconnection technology with PC, handheld devices and oth
 
 Except the above-mentioned positioning technology, as well as computer vision, optical tracking, based on image analysis, magnetic field and a beacon positioning. Many technologies are still in the experimental stage.  
 
-#### The purpose of the application in thesis
+### The purpose of the application in thesis
 Due to the popularity of WiFi，this application, which will be implemented in this thesis, is based on WiFi and hotspot technology, it is "Guidance system" for mobile devices in order to evacuate from the building for people. The application runs on mobile terminal without any additional software or APP, requires only the web browser. When an emergency occurs, the web page of user through HTTP Redirect technology to guide page. The following paragraphs focus on positioning in the WiFi environment.  
 
 In the indoor environment, a IEEE802.11 WLAN is mainly composed of one or more of AccessPoint (AP) to provide the wireless access service. Usually any mobile device connects to the AP of the strongest signal and the nearest AP, since the AP has been previously placed in a fixed location, so we can determine the location Information of the mobile device through location Information of the AP, which is connected to by the mobile device. And I found that most of the current network devices with SNMP service.  
 Therefore, this thesis presents the application based on web mode with combination of the WLAN technology and SNMP technology, using the location of AP to determine the positioning of the user's mobile device for getting the escape information. There are several methods as location information in Wi-Fi environment.
 
-### IP address  
+#### IP address  
 The IP address of device is automatically distributed through DHCP to connect to AP. If the IP address is used in the different address segment by any APs, it can determine the IP address area of the AP for the terminal. According to the different ip address, the connected AP can be found. 
 * Advantage：  
 Without installation of additional software and hardware. It suitable for the web application.  
 * Disadvantage:  
 In fact, the installation process of the wireless network has a lot of possibilities,  it is not universal and feasible way, using only the IP address directly to find the connected AP. Because in the mobile IP mechanism, the device might remain the same IP address in the different AP area. In this situation, the connected AP cannot be determined by device, we need to also get the Care-of address for more judgment.  
 
-### Signal strength of the communication between the device and AP  
+#### Signal strength of the communication between the device and AP  
 By principle of triangulation detects the position from three different points, and then uses the triangle geometric principles to determine the position and the distance. Wireless Triangulation is a method for determining the location of wireless nodes with IEEE 802.11 standards. It is normally implemented by measuring the received signal strengths(RSS). Because of the multipath effects of the signal can not determine the accurate position, and it needs to calculate three signal strengths of the different AP.
 
 
