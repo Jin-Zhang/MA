@@ -36,7 +36,7 @@ Except the above-mentioned positioning technology, as well as computer vision, o
 Due to the popularity of WiFi，this application, which will be implemented in this thesis, is based on WiFi and hotspot technology, it is "Guidance system" for mobile devices in order to evacuate from the building for people. The application runs on mobile terminal without any additional software or APP, requires only the web browser. When an emergency occurs, the web page of user through HTTP Redirect technology to guide page. The following paragraphs focus on positioning in the WiFi environment.  
 
 In the indoor environment, a IEEE802.11 WLAN is mainly composed of one or more of AccessPoint (AP) to provide the wireless access service. Usually any mobile device connects to the AP by the strongest signal and the nearest AP, since the AP has been previously placed in a fixed location, so we can determine the location Information of the mobile device through location Information of the AP, which is connected to by the mobile device. And I found that most of the current network devices with SNMP service.  
-Therefore, this thesis presents the application based on web mode with combination of the WLAN technology and SNMP technology, using the location of AP to determine the positioning of the user's mobile device for getting the escape information. There are several methods, which can be used as location information.  
+Therefore, this thesis presents the application based on web mode with combination of the WLAN technology and SNMP technology, using the location of AP to determine the positioning of the user's mobile device for getting the escape information. There are several methods as location information in Wi-Fi environment.
 
 * 
 
