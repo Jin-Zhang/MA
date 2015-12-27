@@ -46,8 +46,12 @@ Without installation of additional software and hardware. It suitable for the we
 In fact, the installation process of the wireless network has a lot of possibilities,  it is not universal and feasible way, using only the IP address directly to find the connected AP. Because in the mobile IP mechanism, the device might remain the same IP address in the different AP area. In this situation, the connected AP cannot be determined by device, we need to also get the Care-of address for more judgment.  
 
 #### Signal strength of the communication between the device and AP  
-By principle of triangulation detects the position from three different points, and then uses the triangle geometric principles to determine the position and the distance. Wireless Triangulation is a method for determining the location of wireless nodes with IEEE 802.11 standards. It is normally implemented by measuring the received signal strengths(RSS). Because of the multipath effects of the signal can not determine the accurate position, and it needs to calculate three signal strengths of the different AP.
+By principle of triangulation detects the position from three different points, and then uses the triangle geometric principles to determine the position and the distance. Wireless Triangulation is a method for determining the location of wireless nodes with IEEE 802.11 standards. It is normally implemented by measuring the received signal strengths(RSS). Because of the multipath effects of the signal can not determine the accurate position, and it needs to calculate three signal strengths of the different AP.   
 
+#### Authentication of the user
+In many public Wi-Fi zone requires users to authenticate before using the Internet, based on the acentralized RADIUS server or IEEE 802.1X and providing centralized authentication, authorization, and accounting for the network access. The mobile device sends an
+authentication request to an AP, then it forwards the request to the RADIUS server. Therefore, such as the time, the AP's ID and the MAC
+address of the mobile device are recorded in the RADIUS server in order to determine information, which AP a mobile device is currently associated with.
 
 
 
