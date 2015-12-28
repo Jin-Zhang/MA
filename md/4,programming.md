@@ -1,29 +1,39 @@
-## Programming
+## (1) Programming
+This section 
 
-### Kivy
+### a. Python
 
-**Kivy** is a Python framework, used to generate graphics interface.
+Python has two popular version: Python 2.7 and Python 3.5. A lot of features has been changed  
 
-#### kv language
+Kivy has been elected as the GUI framework in this master thesis, but kivy support only Python 2 for now on, 
 
-Kivy 
-Kivy is a Open source Python library for rapid development of applications that make use of innovative user interfaces, such as multi-touch apps.  
-KV language 
-The KV language (sometimes called kvlang, or kivy language), allows you to create your widget tree in a declarative way and to bind widget properties to each other or to callbacks in a natural manner. It allows for very fast prototyping and agile changes to your UI. It also facilitates a good separation between the logic of your application and its User Interface. 
+Python 的优缺点
 
+### 2.1. Kivy
+**Kivy** is a open source and free Python framework, used for rapid development of mobile applications or other multitouch applications. It's distributed under the MIT license.
 
+This thesis elected 
 
-Kv language 
-Kv language is a Kivy specified  
+#### 2.1.1. Advantages of Kivy
+Kivy has the following advantages:
+1. 
 
+#### 2.1.2. KV language
+The _KV language_ (sometimes called kvlang, or kivy language), used for the creation of widget tree in a declarative way and to bind widget properties to each other or to callbacks in a human natural manner. It allows for very fast prototyping and agile changes to the GUI. It also facilitates a good separation between the logic of your application and its User Interface.
 
-### Web Server
+### 3.2. Web Server
 
 A Web Server is used to offer 
+
+When the user try to 
 
 The default port of the HTTP service is 80. 
 
 #### Simple HTTP Server
+
+**SimpleHTTPServer** is a module of Python 2.7, it became 
+
+
 
 Python offers 
 
@@ -37,3 +47,7 @@ Apache is the most widly used HTTP server in the world.
 Use Apache 
 
 Since LoYiW project reminds small, 
+
+### Shell Script
+
+#### Usages in this project
