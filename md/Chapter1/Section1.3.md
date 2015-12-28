@@ -1,5 +1,5 @@
 #### IP
-1.3 IP
+
 IP is the abbreviation for Internet Protocol, meaning "interconnection protocol between networks". In the Internet, it is a set of rules to make all devices, which are connected to the Internet network, compatible with each other for communication. The devices should comply with the rules. Any system manufacturers of a device, as long as it complies the IP, could be interconnected to the Internet. Because of IP, the Internet was able to have rapid development and became the world's largest open communication network.  
 
 IPv4 vs. IPv6
