@@ -3,11 +3,13 @@ This section
 
 ### a. Python
 
-Python has two popular version: Python 2.7 and Python 3.5. A lot of features has been changed  
+Python is an interpreted, object-oriented, high level scripting and programming language. Python has two popular version: Python 2.7 and Python 3.5. A lot of features has been changed  
 
 Kivy has been elected as the GUI framework in this master thesis, but kivy support only Python 2 for now on, 
 
-Python 的优缺点
+Advantages and disadvantages of Python Python  
+
+
 
 ### 2.1. Kivy
 **Kivy** is a open source and free Python framework, used for rapid development of mobile applications or other multitouch applications. It's distributed under the MIT license.
