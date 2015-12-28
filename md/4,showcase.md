@@ -1,6 +1,6 @@
 ## Showcase
 
-This paragraph will try to implement an experiment. The target is locate a mobile phone on a small network.
+This section will try to implement an experiment. The target is locate a mobile phone on a small network.
 
 ### Section 4.1. Case study
 
@@ -181,23 +181,27 @@ The bold row is the mobile phone that we want to find out. In this row, number 8
 Search the devices.json file, 		media interface 8 connects to the ProCurve switch media interface 		1.
 		
 And the ProCurve switch media 		interface belongs to ProCurve switch. This device is defined as a 		switch, supports SNMP 1, and is active.
-		
-Run 		command
-		
-snmpwalk 		-v 2c -c public 192.168.2.7 mib-2.17.7.1.2.2.1.2
-	
 
-Output listed below:
+Run command
+
+> snmpwalk -v 2c -c public 192.168.2.7 mib-2.17.7.1.2.2.1.2
+
+It will output the demanded information, an output sample is listed below:
+
+```
 SNMPv2-SMI::mib-2.17.7.1.2.2.1.2.1.0.28.46.14.170.0 = INTEGER: 0
 SNMPv2-SMI::mib-2.17.7.1.2.2.1.2.1.16.64.243.159.73.226 = INTEGER: 1
 SNMPv2-SMI::mib-2.17.7.1.2.2.1.2.1.88.176.53.243.205.40 = INTEGER: 3
 SNMPv2-SMI::mib-2.17.7.1.2.2.1.2.1.90.176.53.63.244.100 = INTEGER: 3
 SNMPv2-SMI::mib-2.17.7.1.2.2.1.2.1.140.191.166.167.23.99 = INTEGER: 1
 SNMPv2-SMI::mib-2.17.7.1.2.2.1.2.2.0.28.46.14.170.1 = INTEGER: 0
+````
 
-Care the yellow line, the value 140.191.166.167.23.99 is the decimal format of the MAC address, and it equals to 8c:bf:a6:a7:17:63
-From this line, we know that the Handy connects to the media interface 1 of the ProCurve switch.
-	5. Again, from the devices.json configurations file, we know that the media interface 1 of the ProCurve switch connects to ASUS. ASUS is a AP and it doesn't support SNMP, so it shall not have any subdevice. So the ASUS router is returned as the device that directly connects to the Handy.
+Care the fifth line, the value 140.191.166.167.23.99 is the decimal format of the MAC address, and it equals to 8c:bf:a6:a7:17:63. After the analyse of this line, it's known that the target mobile phone connects to the media interface 1 of the ProCurve switch.
+
+### Step 5
+
+Again, from the _devices.json_ configurations file, we know that the media interface 1 of the ProCurve switch connects to ASUS. The configuration shows that ASUS is an AP and it doesn't support SNMP, so it shall not have any subdevice. So the ASUS router is returned as the device that directly connects to the mobile phone.
 
 Redirection
 redirect the client request to 
