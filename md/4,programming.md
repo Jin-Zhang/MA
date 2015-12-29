@@ -3,7 +3,7 @@ This section
 
 ### a. Python
 
-Python is an interpreted, object-oriented, high level scripting and programming language. It was first introduced in 1991 by Guido van Rossum, who wanted to develop a language that could be used for anyone. The syntax of Python is simple and clear, one of the features is white space as a statement indentation. Python has two popular version: Python 2.7 and Python 3.5. A lot of features has been changed  
+Python is an interpreted, object-oriented, high level scripting and programming language. It was first introduced in 1991 by Guido van Rossum, who wanted to develop a language that could be used for anyone. The syntax of Python is simple and clear, one of the features is white space as a statement indentation. When Python program is executed, first .py file in the source code is compiled into byte code, and then it performs these compiled byte code by the Python Virtual Machine. This mechanism is the same with Java and .NET. Python has two popular version: Python 2.7 and Python 3.5. A lot of features has been changed  
 
 Advantages of  Python  
 * Python source code is generally considered to be better readability, and it supports the software development of large-scale.  
