@@ -8,13 +8,13 @@ Python is an interpreted, object-oriented, high level scripting and programming 
 Advantages of  Python  
 * Python source code is generally considered to be better readability, and it supports the software development of large-scale.  
 * It is a multi-paradigm programming language, using to code in several different programming styles. A programmer can code in a functional, objectoriented or imperative format.   
-* 
+* Python can be run in interactive mode, such as on operating system Unix / Linux, Mac or windows providing directly Python interactive environment by command mode. 
 
 
 disadvantages of Python  
 
 
-Kivy has been elected as the GUI framework in this master thesis, but kivy support only Python 2 for now on, 
+
 
 
 
@@ -22,6 +22,8 @@ Kivy has been elected as the GUI framework in this master thesis, but kivy suppo
 
 ### 2.1. Kivy
 **Kivy** is a open source and free Python framework, used for rapid development of mobile applications or other multitouch applications. It's distributed under the MIT license.
+
+Kivy has been elected as the GUI framework in this master thesis, but kivy support only Python 2 for now on, 
 
 This thesis elected 
 
