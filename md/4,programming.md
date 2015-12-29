@@ -6,8 +6,8 @@ This section
 Python is an interpreted, object-oriented, high level scripting and programming language. It was first introduced in 1991 by Guido van Rossum, who wanted to develop a language that could be used for anyone. The syntax of Python is simple and clear, one of the features is white space as a statement indentation. When Python program is executed, first .py file in the source code is compiled into byte code, and then it performs these compiled byte code by the Python Virtual Machine. This mechanism is the same with Java and .NET.   
 Python has two popular version: Python 2.7 and Python 3.5. A lot of features has been changed  
 
-Advantages of  Python  
-* Python is well known for include: Free, open source, ease of learning, portability, dynamic typing and integration with other languages.  
+Advantages of Python  
+* Python is well known: Free, open source, ease of learning, portability, dynamic typing and integration with other languages.  
 * Python is written by C language, a lot of standard libraries and other libraries are written also in C, so it runs very fast.
 * Python source code is generally considered to be better readability, and it supports the software development of large-scale.  
 * It is a multi-paradigm programming language, using to code in several different programming styles. A programmer can code in a functional, objectoriented or imperative format.   
@@ -35,7 +35,10 @@ This thesis elected
 
 #### 2.1.1. Advantages of Kivy
 Kivy has the following advantages:
-1. 
+* A open source and free is well known for Kivy.
+* Multi-platform: Just a set of code can be run on the desktop or mobile platforms and it supports most original input protocols and equipment.  
+* Kivy has extensive API documentation and development Guide.  
+
 
 #### 2.1.2. KV language
 The _KV language_ (sometimes called kvlang, or kivy language), used for the creation of widget tree in a declarative way and to bind widget properties to each other or to callbacks in a human natural manner. It allows for very fast prototyping and agile changes to the GUI. It also facilitates a good separation between the logic of your application and its User Interface.
