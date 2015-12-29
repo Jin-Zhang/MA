@@ -14,7 +14,7 @@ Advantages of  Python
 * Python can be run in interactive mode, such as on operating system Unix / Linux, OS x or Windows providing directly Python interactive environment by command mode. 
 
 
-disadvantages of Python  
+Disadvantages of Python  
 * Unique syntax, the most common situation is mixed tab and space cause an error, but it is difficult to distinguish. 
 * Python is an interpreted language at runtime, it adds the overhead on interpretation to the runtime of the program which can lead
 to a slower (means then Java or C/C++.) runtime.  
