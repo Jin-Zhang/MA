@@ -5,9 +5,18 @@ This section
 
 Python is an interpreted, object-oriented, high level scripting and programming language. It was first introduced in 1991 by Guido van Rossum, who wanted to develop a language that could be used for anyone. The syntax of Python is simple and clear, one of the features is white space as a statement indentation. Python has two popular version: Python 2.7 and Python 3.5. A lot of features has been changed  
 
+Advantages of  Python  
+* Python source code is generally considered to be better readability, and it supports the software development of large-scale.  
+* It is a multi-paradigm programming language, using to code in several different programming styles. A programmer can code in a functional, objectoriented or imperative format.   
+* 
+
+
+disadvantages of Python  
+
+
 Kivy has been elected as the GUI framework in this master thesis, but kivy support only Python 2 for now on, 
 
-Advantages and disadvantages of Python Python  
+
 
 
 
