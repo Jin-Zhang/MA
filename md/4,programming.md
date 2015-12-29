@@ -8,7 +8,7 @@ Python is an interpreted, object-oriented, high level scripting and programming 
 Advantages of  Python  
 * Python source code is generally considered to be better readability, and it supports the software development of large-scale.  
 * It is a multi-paradigm programming language, using to code in several different programming styles. A programmer can code in a functional, objectoriented or imperative format.   
-* Python can be run in interactive mode, such as on operating system Unix / Linux, Mac or windows providing directly Python interactive environment by command mode. 
+* Python can be run in interactive mode, such as on operating system Unix / Linux, OS x or Windows providing directly Python interactive environment by command mode. 
 
 
 disadvantages of Python  
