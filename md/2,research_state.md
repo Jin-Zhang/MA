@@ -5,7 +5,6 @@ With the rapidly increase of data/multimedia service and the growing demand for 
 
 1. Indoor GPS technology  
 GPS, Global Positioning System, currently the widely spread positioning technology. When the GPS receiver used indoor, due to the influence of the building, the signal is greatly attenuated, so the positioning accuracy is poor. There is no method to get equal performance as the outdoor navigation with extraction of the navigation data and time information from the satellite broadcasting in a straight way. In order to obtain higher signal sensitivity, the residence time of the delay on each waypoint needs to be extended.   
-
 A-GPS (Assisted GPS) technology offers the possibility to solve this problem. A-GPS is the convergence technology between GPS technology and the wireless cellular technology. The mobile terminal has not to download and decode the navigation data from the GPS satellites, receives directly the positioning information of the aid from the mobile network and there is no need to decode the timing measurement.
 The advantage of GPS is the wide and effective coverage and the accuracy of the positioning signal and navigation signal. The disadvantage of the GPS is the limitation by indoor usage and the high cost of the terminal.  
  
