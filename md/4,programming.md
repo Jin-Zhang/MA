@@ -64,7 +64,7 @@ Python offers
 
 #### Apache Server
 
-Apache is the most widly used HTTP server in the world.
+Apache is the most widly used HTTP server in the world. Apache HTTP Server is an open source web server of the Apache Software Foundation. It runs on most computer operating systems, because of its Multi-platform and security, is widely used, it is one of the most popular Web server software. Through a simple API expansion, Python interpreter can be compiled into the server.
 
 Use Apache 
 
