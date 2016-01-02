@@ -1,5 +1,11 @@
 # Chapter 6. Conclusion
 
+Because of high speed, larger coverage and simple installation, Wi-Fi technology and WLAN technology are widely used, recently it has become an important part of life.  
+
+
+
+
+
 ## Future works
 
 1. 使用Traps 增加实时性
