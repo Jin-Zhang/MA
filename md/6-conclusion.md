@@ -1,6 +1,9 @@
 # Chapter 6. Conclusion
 
-Because of high speed, larger coverage and simple installation, Wi-Fi technology and WLAN technology are widely used, recently it has become an important part of life.  
+Because of high speed, larger coverage and simple installation, Wi-Fi technology and WLAN technology are widely used, recently it has become an important part of life. The demand for location-based services grows rapidly. Wireless positioning technology is also increasingly concerned and applied to the various industries, the development of the positioning based on the Wireless technology is  possibility and necessary.  
+
+This thesis presents the design and implementation about "Guidance system" is also based on Wi-Fi technology and SNMP, 
+
 
 
 
