@@ -10,7 +10,7 @@ This thesis describes the approach of design and implementation about "Guidance 
 #### Future works
 
 Delay:   
-Due to the differece of equipment leads to the delay in application, when a user roams from one AP to the next AP. Using the SNMP Trap might solve this problem, because managed device will send activly the notification to SNMP manager, instead of waiting for the SNMP manager to poll again. When the connection state changed, it should provide a real-time information for user.
+Due to the differece of equipment leads to the delay in application, when a user roams from one AP to the next AP. Using the SNMP Trap might solve this problem, because managed device will send activly the notification to SNMP manager, instead of waiting for the SNMP manager to poll again. When the connection state changed, it should provide a real-time information for user. further study is, how SNMP traps and the MAC-to-IP address mapping can be used together for supporting push services.
 
 management interface:  
 Improve the management interface, make the administrator to manage simply the new added device and increased remote management capability.   
@@ -18,7 +18,7 @@ Improve the management interface, make the administrator to manage simply the ne
 User Interface:  
 Since there is no a determined escape scene, User page shows MAC address and IP address of the connected AP  in the form of text. Good user interface should be intuitive, can automatically adapt to different screen resolution. When the indoor environment is determined, through a graphical interface can mark out the current position and exit.  
 
-security：
+Security：
 
 
 
