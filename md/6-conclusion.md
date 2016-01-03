@@ -16,7 +16,7 @@ management interface:
 Improve the management interface, make the administrator to manage simply the new added device and increased remote management capability.   
 
 User Interface:  
-Since there is no a determined escape scene, User page shows MAC address and IP address of the connected AP  in the form of text. Good user interface should be intuitive, can automatically adapt to different screen resolution. When the indoor environment is determined, through a graphical interface can mark out the current position and exit.  
+Since there is no a determined escape scene, User page shows MAC address and IP address of the connected AP in the form of text. When the indoor environment is determined, through a graphical floor plan can mark out the current position and exit. Good user interface should be intuitive, can automatically adapt to different screen resolution.
 
 Security：
 
