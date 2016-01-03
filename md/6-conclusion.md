@@ -12,7 +12,7 @@ This thesis could be extended to several directions in the future:
 
 
 Delay:   
-Due to the differece of equipment leads to the delay in application, when a user roams from one AP to the next AP. Using the SNMP Trap might solve this problem, because managed device will send activly the notification to SNMP manager, instead of waiting for the SNMP manager to poll again. When the connection state changed, it should provide a real-time information for user. Further study is, how SNMP traps and the MAC-to-IP address mapping can be used together for supporting push services.
+Due to the differece of equipment leads to the delay in application, when a user roams from one AP to the next AP. Using the SNMP Trap might solve this problem, because managed device will send activly the notification to SNMP manager, instead of waiting for the SNMP manager to poll again. When the connection state changed, it should provide a real-time information for user. Further study is, how SNMP traps and the MAC-to-IP address mapping can be used together for supporting push services of early warning.
 
 
 Management interface:  
