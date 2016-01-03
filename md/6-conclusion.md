@@ -3,7 +3,7 @@
 #### Summary
 Because of the high speed, larger coverage and simple installation, Wi-Fi technology and WLAN technology are widely used, recently it has become an important part of life. The demand for location-based services grows rapidly. Wireless positioning technology is also increasingly concerned and applied to the various industries, the development of the positioning based on the Wireless technology is  possibility and necessary.  
 
-This thesis describes the approach of design and implementation about "Guidance system" is also based on Wi-Fi technology and SNMP, by a practical web service for Mobile devices in WWW environments. The application implements that, though the MAC-to-IP address mapping, the network device of supporting SNMP find the AP or wireless router, which directly is connected to a Mobile device of user. In case of an emergency, forwarding is turned on, the user's browser is redirected to a specified page. It contains also a graphical user interface for management. The management module can add and delete the managed network devices.
+This thesis describes the approach of design and implementation about "Guidance system" is also based on Wi-Fi technology and SNMP, by a practical web service for Mobile devices in WWW environments. The application implements that, though the MAC-to-IP address mapping, the network device of supporting SNMP finds the AP or wireless router, which directly is connected to a Mobile device of user. In case of an emergency, forwarding is turned on, the user's browser is redirected to a specified page. It contains also a graphical user interface for management. The management module can add and delete the managed network devices.
 
 
 
