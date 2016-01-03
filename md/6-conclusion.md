@@ -3,11 +3,28 @@
 #### Summary
 Because of the high speed, larger coverage and simple installation, Wi-Fi technology and WLAN technology are widely used, recently it has become an important part of life. The demand for location-based services grows rapidly. Wireless positioning technology is also increasingly concerned and applied to the various industries, the development of the positioning based on the Wireless technology is  possibility and necessary.  
 
-This thesis describes the approach of design and implementation about "Guidance system" is also based on Wi-Fi technology and SNMP, by a practical web service for Mobile devices in WWW environments. The application implements that, though the MAC-to-IP address mapping, the network device of supporting SNMP find the AP or wireless router, which directly is connected to a Mobile device of user. In case of an emergency, forwarding is turned on, the user's browser is redirected to a specified page. It contains also a graphical user interface for management.  
+This thesis describes the approach of design and implementation about "Guidance system" is also based on Wi-Fi technology and SNMP, by a practical web service for Mobile devices in WWW environments. The application implements that, though the MAC-to-IP address mapping, the network device of supporting SNMP find the AP or wireless router, which directly is connected to a Mobile device of user. In case of an emergency, forwarding is turned on, the user's browser is redirected to a specified page. It contains also a graphical interface for management. The management module can add and delete the managed network equipment.
 
 
 
 #### Future works
+
+Delay:   
+Due to the differece of equipment leads to the delay in application, when a user roams from one AP to the next AP. Using the SNMP Trap might solve this problem, because managed device will send activly the notification to SNMP manager, instead of waiting for the SNMP manager to poll again. When the connection state changed, it should provide a real-time information for user.
+
+management interface:  
+Improve the management interface, make the administrator to manage simply the new added device and increased remote management capability.   
+
+User Interface:  
+Since there is no a determined escape scene, User page shows MAC address and IP address of the connected AP  in the form of text. Good user interface should be intuitive, can automatically adapt to different screen resolution. When the indoor environment is determined, through a graphical interface can mark out the current position and exit.  
+
+security：
+
+
+
+
+
+
 
 
 1. 使用Traps 增加实时性
